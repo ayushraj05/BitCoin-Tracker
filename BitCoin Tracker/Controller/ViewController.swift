@@ -50,7 +50,7 @@ extension ViewController: CoinManagerDelegate {
 
 extension ViewController: UIPickerViewDataSource, UIPickerViewDelegate {
     
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+      func numberOfComponents(in pickerView: UIPickerView) -> Int {
           return 1
       }
       
